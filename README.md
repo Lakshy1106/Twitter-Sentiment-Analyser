@@ -1,2 +1,8 @@
 # Twitter-Sentiment-Analyser
-This repository stores code for my project on twitter data analysis.
+A repository for twitter data analysis.
+
+This code analyses twitter data stored in csv format and gives output in csv format.
+
+The code takes a filename as input and output filename.
+
+Ensure your input file is in same folder with the code.

@@ -18,6 +18,9 @@ The resources provided with this project are as follows :
 2) The input tweet data file must have tweet text, retweet count and reply count for each tweet.
 3) The output file is generated in csv format and contains retweet count, reply count, positive score, negative score and net score for each tweet in your input file.
 
-<h3>Known Issues.</h3>
+<h3> Known Issues</h3>
+None
+
+<h3>Resolved Issues.</h3>
 1) Not giving any input to output file name causes an error which should not be the case as default value is defined. 
-Remedy - Please make sure you always give an output file name as an input and dont rely on default value until I fix this issue. 
+Status - Resolved.

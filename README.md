@@ -11,5 +11,5 @@ Instructions for use.
 3) The output file is generated in csv format and contains retweet count, reply count, positive score, negative score and net score for each tweet in your input file.
 
 Known Issues.
-1) Not giving any input to output fle name causes an error which should not be the case as default value is defined. 
+1) Not giving any input to output file name causes an error which should not be the case as default value is defined. 
 Remedy - Please make sure you always give an output file name as an input and dont rely on default value until I fix this issue. 

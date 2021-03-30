@@ -117,4 +117,7 @@ tweet_list ,retweet_list ,reply_list = data_extractor(data_file)
 # Calling analyser to analyse the data and generate the result lists.
 positive_score_list, negative_score_list, net_score_list = analyser(tweet_list)
 # Calling Data Writer to write data.
-data_writer(retweet_list,reply_list,positive_score_list,negative_score_list,net_score_list, output_file)
+if output_file == '':
+    data_writer(retweet_list,reply_list,positive_score_list,negative_score_list,net_score_list)
+else:
+    data_writer(retweet_list,reply_list,positive_score_list,negative_score_list,net_score_list, output_file)
